@@ -9,7 +9,7 @@ export const apiV1Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Api V 1"
+						"API v1"
 					]
 				}
 			},
@@ -52,7 +52,7 @@ export const apiV1Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Api V 1"
+						"API v1"
 					],
 					"operation": [
 						"Get Item Usages"
@@ -77,7 +77,7 @@ export const apiV1Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Api V 1"
+						"API v1"
 					],
 					"operation": [
 						"Get Item Usages"
@@ -102,7 +102,7 @@ export const apiV1Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Api V 1"
+						"API v1"
 					],
 					"operation": [
 						"Get Item Usages"
@@ -121,7 +121,7 @@ export const apiV1Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Api V 1"
+						"API v1"
 					],
 					"operation": [
 						"Get Sign In Attempts"
@@ -146,7 +146,7 @@ export const apiV1Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Api V 1"
+						"API v1"
 					],
 					"operation": [
 						"Get Sign In Attempts"
@@ -171,7 +171,7 @@ export const apiV1Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Api V 1"
+						"API v1"
 					],
 					"operation": [
 						"Get Sign In Attempts"

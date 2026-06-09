@@ -13,7 +13,7 @@ Every time you connect n8n to 1password-events, you waste hours mapping endpoint
 
 **What if connecting n8n to 1password-events took 5 minutes, not half a day?**
 
-This node gives you **2+ resources** out of the box: **Auth**, **Api V 1**: with full CRUD operations, typed parameters, and zero manual configuration.
+This node gives you **2+ resources** out of the box: **Auth**, **API v1**: with full CRUD operations, typed parameters, and zero manual configuration.
 
 ---
 
@@ -53,10 +53,20 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Auth | Get performs introspection of the provided bearer jwt token |
-| Api V 1 | Post retrieves item usages, Post retrieves signin attempts |
+<details>
+<summary><b>Auth</b> (1 operations)</summary>
+
+- Get Performs introspection of the provided Bearer JWT token
+
+</details>
+
+<details>
+<summary><b>API v1</b> (2 operations)</summary>
+
+- Post Retrieves item usages
+- Post Retrieves sign in attempts
+
+</details>
 
 ---
 

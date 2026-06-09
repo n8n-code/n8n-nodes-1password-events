@@ -1,2 +1,2 @@
 export { authDescription } from './auth';
-export { apiV1Description } from './api-v-1';
+export { apiV1Description } from './api-v1';

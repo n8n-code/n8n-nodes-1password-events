@@ -8,7 +8,7 @@ import type {
 export class N1passwordEventsApi implements ICredentialType {
 	name = 'N8nDevN1passwordEventsApi';
 
-	displayName = '1password-events API';
+	displayName = '1password Events API';
 
 	icon: Icon = { light: 'file:../nodes/N1passwordEvents/1password-events.svg', dark: 'file:../nodes/N1passwordEvents/1password-events.dark.svg' };
 
@@ -22,7 +22,7 @@ export class N1passwordEventsApi implements ICredentialType {
 			default: 'https://events.1password.com',
 			required: true,
 			placeholder: 'https://events.1password.com',
-			description: 'The base URL of your 1password-events API server',
+			description: 'The base URL of your 1password Events API server',
 		},
 		{
 			displayName: 'API Key',

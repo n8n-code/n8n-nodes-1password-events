@@ -1,17 +1,17 @@
 import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
 import { authDescription } from './resources/auth';
-import { apiV1Description } from './resources/api-v-1';
+import { apiV1Description } from './resources/api-v1';
 
 export class N1passwordEvents implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: '1password-events',
+		displayName: '1password Events',
 		name: 'N8nDevN1passwordEvents',
 		icon: { light: 'file:./1password-events.svg', dark: 'file:./1password-events.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: '1Password Events API Specification.',
-		defaults: { name: '1password-events' },
+		defaults: { name: '1password Events' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
@@ -41,8 +41,8 @@ export class N1passwordEvents implements INodeType {
 					"description": ""
 				},
 				{
-					"name": "Api V 1",
-					"value": "Api V 1",
+					"name": "API v1",
+					"value": "API v1",
 					"description": ""
 				}
 			],
